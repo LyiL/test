@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css">
+		<script src="js/mobile.js"></script>
+		<style>
+			html{
+				height: 100%;
+			}
+			body{
+				display: flex;
+				justify-content: center;
+				height: 100%;
+			}
+			.img-box{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+			.err-img{			
+				width: 60%;
+				/*height: 2.5rem;*/
+			}
+			.alert-msg{
+				font-size: 0.32rem;
+			}
+			.alert-msg1{
+				margin-top: 0.32rem;
+			}
+			.backto{
+				color: #81dd22;
+			}
+		</style>
+	</head>
+	<body style="background: #fff;height: 100%;">
+		<div class="img-box">
+			<img src="img/error.png" class="err-img"/>
+			<p class="alert-msg alert-msg1">啊哦~~~~~你访问的页面未找到</p>
+			<p class="alert-msg">你可以点击返回<a href="index.html" class="backto">上级页面</a></p>
+		</div>
+	</body>
+</html>
